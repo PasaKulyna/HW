@@ -1,7 +1,16 @@
-.a-youtube {color: red;}
-.a-validator {color: red;}
-.ul-p { font-size: 50px; }
-.yellow { color:yellow }
-#greycol { color:grey }
-.text-box h3:nth-child(1) { color: pink;}
-div p:nth-child(1) { color: red;}
+a[href="https://www.youtube.com/"], a[href="https://validator.w3.org/"] {
+color: red;
+}
+
+.yellow { 
+    color:yellow 
+}
+#greycol { 
+    color:grey 
+}
+.text-box h3:nth-child(1) { 
+    color: pink;
+}
+div p:nth-child(1) {
+     color: red;
+}
